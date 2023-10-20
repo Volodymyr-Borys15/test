@@ -7,7 +7,7 @@ import { Observable } from 'rxjs';
   styleUrls: ['./app.component.css'],
 })
 export class AppComponent implements AfterViewInit {
-  yo = 4;
+  yo = 5;
   title = 'top';
   @ViewChild('canvas') public canvas: ViewChild | undefined;
 
